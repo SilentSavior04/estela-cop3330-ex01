@@ -3,8 +3,9 @@ import java.util.Scanner;
 
 public class SelfCheckout {
     public static void main(String[] args) {
-        float price[] = new float[3];
-        float quantity[] = new float[3];
+        float[] price = new float[3];
+        float[] quantity;
+        quantity = new float[3];
         float subtotal = 0;
 
         Scanner sc=new Scanner(System.in);
